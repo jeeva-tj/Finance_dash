@@ -6,7 +6,7 @@ import plotly.express as px
 st.markdown("<h5 style='text-align: center; color: black;'>MF Financial Simulation</h5>", unsafe_allow_html=True)
 
 
-df=pd.read_excel("SOPLatest29.xlsx",'sheet_name'='SOPLatest29)
+df=pd.read_excel("SOPLatest29.xlsx",sheet_name='SOPLatest29')
 
 
 df_month ={"Month": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", 
