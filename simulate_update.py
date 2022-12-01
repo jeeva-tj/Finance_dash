@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 
-st.markdown("<h5 style='text-align: center; color: black;'>MF Financial Simulation</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: center; color: black;'>Financial Simulation</h5>", unsafe_allow_html=True)
 
 
 df=pd.read_csv("SOPLatest29.csv")
